@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace FirstApplication.ConsoleApp
 {
-    class MyClass1
+    public class MyClass1
     {
+        public int Count { get; }
+
+        public MyClass1(int count)
+        {
+            Count = count;
+        }   
     }
 }
